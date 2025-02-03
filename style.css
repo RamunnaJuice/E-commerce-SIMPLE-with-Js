@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px; }
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; }
+#product-list { 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; }
+
+    .product {
+        padding: 15px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      
+button { 
+    cursor: pointer; 
+    padding: 10px;
+}
+.hidden { display: none; }
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
